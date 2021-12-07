@@ -13,4 +13,4 @@ for key in data:
         diff = abs(i - key)
         summed_fuel[i] += (diff * (diff+1)) / 2
 
-print(min(summed_fuel), summed_fuel)
+print(min(summed_fuel))
